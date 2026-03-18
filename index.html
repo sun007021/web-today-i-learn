@@ -4,37 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="아론의 TIL 페이지" />
+    <meta property="og:description" content="8기 BE 아론의 자기소개와 TIL 기록" />
+    <meta property="og:image" content="./images/profile.png" />
 
-    <title>Today I Learn</title>
+    <title>아론의 TIL | Today I Learned</title>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js" defer></script>
   </head>
   <body>
     <!-- 상단 내비게이션 -->
-    <nav class="top-nav">
-      <span class="nav-logo">My Page</span>
-      <ul class="nav-links">
-        <li><a href="#about">자기소개</a></li>
-        <li><a href="#gallery">갤러리</a></li>
-        <li><a href="#works">인생 작품</a></li>
-        <li><a href="#til">TIL</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="top-nav">
+        <span class="nav-logo">My Page</span>
+        <ul class="nav-links">
+          <li><a href="#about">자기소개</a></li>
+          <li><a href="#gallery">갤러리</a></li>
+          <li><a href="#works">인생 작품</a></li>
+          <li><a href="#til">TIL</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- 프로필 히어로 -->
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img src="./images/profile.png" alt="프로필 사진" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>아론</h1>
+          <p class="tagline">8기 BE 아론입니다. 베이스 기타 치는거 좋아해요</p>
         </div>
       </div>
     </section>
@@ -43,30 +43,36 @@
       <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <p>
+          안녕하세요! 우아한테크코스 8기 백엔드 과정을 진행하고 있는 아론입니다.<br />
+          정보보안 동아리를 했었고 보안 공부를 하다가 개발에 더 흥미를 느껴 현재 백엔드 개발을 하고 있습니다.<br />
+          개발 외에는 베이스 기타를 치며 스트레스를 풀고, 일식을 좋아합니다.
+        </p>
+        <p>
+          블로그나 GitHub에서 학습 기록을 확인하실 수 있습니다:<br />
+          <a href="https://github.com/sun007021" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
       </section>
 
       <!-- 기본 정보 -->
       <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>아론</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>ISFP</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>베이스 기타</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>일식(초밥, 돈카츠, 덮밥)</td>
           </tr>
         </table>
       </section>
@@ -74,33 +80,58 @@
       <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">기억에 남는 순간들</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img src="./images/IMG_3191.JPG" alt="갤러리 이미지 1" />
+          <img src="./images/IMG_3327.JPG" alt="갤러리 이미지 2" />
+          <img src="./images/IMG_5818.JPG" alt="갤러리 이미지 3" />
+          <img src="./images/IMG_7280.JPG" alt="갤러리 이미지 4" />
+          <img src="./images/IMG_5844.JPG" alt="갤러리 이미지 5" />
+          <img src="./images/IMG_7303.JPG" alt="갤러리 이미지 6" />
+          <img src="./images/IMG_8934.JPG" alt="갤러리 이미지 7" />
         </div>
       </section>
 
       <!-- 나를 울린 인생 작품 -->
       <section class="content-section" id="works">
-        <h2>나를 울린 인생 작품</h2>
-        <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
-          <article class="work-card">
-            <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
-            </div>
-            <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
-            </div>
-          </article>
-        </div>
+        <h2>나의 인생 작품</h2>
+        <ul class="works-list">
+          <li>
+            <article class="work-card">
+              <div class="work-thumbnail">
+                <img src="https://contents.kyobobook.co.kr/sih/fit-in/400x0/pdt/9788983925572.jpg" alt="해리포터 책 표지" />
+              </div>
+              <div class="work-info">
+                <h3>해리포터</h3>
+                <p>
+                  어릴 때 해리포터를 좋아해 정주행을 정말 많이 했었다.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="work-card">
+              <div class="work-thumbnail">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/cQqRX0GC_6I"
+                  title="비긴어게인 OST"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="work-info">
+                <h3>비긴어게인</h3>
+                <p>
+                  2013년 존 카니 감독의 음악 영화. 뉴욕 길거리에서 음악을 통해 서로의 상처를 치유해 가는 이야기다.
+                  감명깊게 본 영화로, 마음속 휴식이 필요할 때 다시 찾아보곤 한다. 음악과 영상미가 정말 아름답다.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
       </section>
 
       <!-- TIL (Today I Learned) -->
